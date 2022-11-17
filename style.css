@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    color: white; 
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+header img{
+    height: 150px;
+}
+
+header{
+    top: 0;
+    left: 0;
+    background-color: black;
+    height: 100px;
+}
+
+nav{
+    text-align: center ;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+    justify-content: space-around;
+    
+}
+
+nav li{
+    display:inline-block;
+    border-radius: 50px;
+    padding: 10px 80px 10px 80px;
+    margin-left: 10px;
+    border-bottom: 1px solid white;
+}
+
+nav li:hover{
+    border-bottom: 1px solid #44000091;
+    box-shadow: 1px 1px 15px 2px #44000091;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+section{
+    background-image: url(motorcycle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    height: 500px;
+}
+
+.titrebg {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: 35px;
+    color: white;
+}
+
+.card{
+    margin: 5% 10% 5% 10%;
+    background-color: #161616;
+    border-radius: 25px;
+    height: auto;
+    padding: 30px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    
+    
+}
+
+.cardimg img{
+    margin-top: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    height: 110px;
+    width: inherit;
+    box-sizing: border-box;
+}
+
+.cardimg2 img{
+    margin-top: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    height: auto;
+    width: 95%;
+    box-sizing: border-box;
+}
+
+div > h3{
+
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+div > p{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    text-align: justify;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.322);
+}
+
+div > h2{
+    padding-bottom: 40px;
+    display: block;
+    width: 100%;
+}
+
+div > button{
+    border: 2px solid transparent;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+
+    background-color: #44000091;
+    border-radius: 0px 0px 15px 15px;
+}
+
+button:hover{
+    border: 2px solid white;
+
+}
+
+footer{
+    background-color: #2B2B2B ;
+    height: auto;
+    padding: 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.bloctxt{
+    width: 32%;
+    height: 100%;
+    box-sizing: border-box;
+
+    display:list-item;
+    list-style: none;
+    flex-direction: row;
+    flex-flow: wrap;
+    
+}
+
+.titrefoot{
+    font-size: 30px;
+    padding-bottom: 30px;
+    display: block;
+    width: 100%;
+}
+
+.textfoot{
+    font-size: 11px;
+    border: none;
+    padding: 5px;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+
+footer > h4{
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*PAGE 404*/
+
+.textfoot2{
+    font-size: 11px;
+    border: none;
+    padding: 5px;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 15px;
+
+}
+
+.header404{
+    margin-bottom: 50px;
+}
